@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+.form_general{
+background-color: rgb(96,100,100);
+width: 600px;
+height: 600px;
+position: absolute;
+border-radius: 20px 20px;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+
+.text_legend{
+	margin: -10px;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+
+.form_general .form_contenido {	
+background-color: white;
+width: 550px;
+height: 550px;
+border-radius: 20px;
+
+	
+}
+
+
+.form_general .form_contenido .fieldset-style{
+border-style: none;
+	
+	
+}
+
+
+.form_general .fieldset-style .input-text{
+	border-style: solid 1px rgb(128,128,128);
+}
+
+
+.form_general .fieldset-style .textarea-comment{
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.form_general .button-enviar{
+position: relative;
+bottom: -140px;
+right: -430px;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 80px;
+height: 30px;
+}
+
+.fieldset-style{
+	color: blue;
+	margin: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.form_general .sticker-carita{	
+position: relative;
+bottom: -21px;
+right: -450px
+}
+
+
+
