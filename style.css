@@ -8,6 +8,7 @@ body{
 
 .form_general{
 background-color: rgb(96,100,100);
+box-shadow: 3px 10px 10px rgb(0,0,0);
 width: 600px;
 height: 600px;
 position: absolute;
@@ -19,6 +20,7 @@ align-items:center;
 
 
 .text_legend{
+	color:#8E36D6;
 	margin: -10px;
 	text-align:center;
 	font-size: 25px;
@@ -38,25 +40,33 @@ border-radius: 20px;
 
 .form_general .form_contenido .fieldset-style{
 border-style: none;
+
 	
 	
 }
 
 
 .form_general .fieldset-style .input-text{
-	border-style: solid 1px rgb(128,128,128);
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #C6CBCB;
+	border-style: none 0px transparent;
+	resize:none;
 }
 
 
 .form_general .fieldset-style .textarea-comment{
 	border-radius: 10px;
-	border-style: solid;
+	padding: 5px;
+	background-color: #C6CBCB;
+	resize: none;
+	
 }
 
 .form_general .button-enviar{
 position: relative;
-bottom: -140px;
-right: -430px;
+bottom: -90px;
+right: -440px;
 background-color: black;
 color: white;
 border-radius: 10px;
@@ -65,7 +75,7 @@ height: 30px;
 }
 
 .fieldset-style{
-	color: blue;
+	color: black;
 	margin: 5px;
 	text-align: center;
 	display: flex;
@@ -75,9 +85,21 @@ height: 30px;
 
 .form_general .sticker-carita{	
 position: relative;
-bottom: -21px;
-right: -450px
+bottom: -18px;
+right: -480px
+}
+
+.form_general .form_contenido .fieldset-style .label-input
+{
+	color: #606363;
+	text-align: justify;
+	padding: 5px;
 }
 
 
-
+.form_general .button-enviar:hover
+{
+	background-color: white;
+	color: black;
+	
+}
